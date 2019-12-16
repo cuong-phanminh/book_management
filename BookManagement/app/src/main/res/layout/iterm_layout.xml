@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/student_iterm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!--    <ListView-->
+    <!--        android:id="@+id/list"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        />-->
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text=""
+        android:textColor="#C22525"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/txtReleaseYear"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text=""
+        android:textColor="#C22525"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="Update"
+        android:textColor="#C22525"
+        android:layout_marginLeft="60px"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="Delete"
+        android:textColor="#C22525"
+        android:layout_marginLeft="60px"
+        android:textSize="10dp" />
+</LinearLayout>
